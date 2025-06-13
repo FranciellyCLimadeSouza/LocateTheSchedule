@@ -1,0 +1,14 @@
+<div class="full-screen-container">
+    <h1 class="title">LocateTheScheduling</h1>
+    <div class="avatar"></div>
+    <div class="login-container">
+        <form (ngSubmit) = "onSubmit()"> 
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"  [(ngModel)] = "credentials.email" name="email" required />
+        <label for="password">Senha (8 dígitos)</label>
+        <input type="password" id="password" name="senha"  [(ngModel)] = "credentials.password" name="password" required />
+        <a (click)="goToRecuperar()">Esqueci a senha</a>
+        <button type="submit">Logar</button>
+    </form>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+  <div class="background">
+    <h1 class="title">LocateTheScheduling</h1>
+    <div class="avatar"></div>
+    <div class="account-section">
+      <h2>Faça seu cadastro</h2>
+      <form (ngSubmit)="goToCadastro()">
+        <input type="text" placeholder="Digite seu email" [(ngModel)]="email" name="email" required>
+        <button type="submit">Continuar</button>
+      </form>
+    </div>
+  </div>

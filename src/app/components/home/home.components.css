@@ -1,0 +1,104 @@
+/* Estilização do fundo e título */
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/home/login/login.png'); /* Substitua pelo caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+ }
+
+.title 
+{
+  position: absolute;
+  color: orange;
+  font-size: 90px;
+  justify-content: center;
+  align-items: center;
+ padding-top: 40px;
+  margin-bottom: 500px !important;
+  line-height: 2.0 !important;
+  text-shadow: 
+  -2px -2px 0 blue,  
+  -2px -2px 0 blue,
+  -2px -2px 0 blue,
+  -2px -2px 0 blue;
+  font-family:"Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Estilização da seção de conta */
+.account-section 
+{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  padding-top: 30px;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 1 1 20px rgba(0, 0, 0);
+  border: 1px solid #ffffff;
+  width: 500px;
+  text-align:center;
+  background-color: rgba(243, 96, 5, 0.5);
+}
+
+.account-section h1
+{
+  padding-top: 10px;
+  position: initial;
+  margin-bottom: 50px;
+}
+.account-section h2 
+{
+  position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  font-family:"Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.account-section input 
+{
+  position:center;
+  width: 80%;
+  padding: 1px;
+  margin-bottom: 20px;
+  border: 1.5px solid #0c0c0c;
+  border-radius: 20px;
+  text-align: center;
+}
+.account-section button 
+{  
+  width: 30%;
+  margin-top: 60px;
+  background-color: rgb(57, 51, 142); /* Cor sólida */
+  border: none;
+  border: 1.5px solid #0c0c0c;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+}
+.account-section button:hover
+{ 
+   background-color: #e76b13;
+ }
+.avatar{
+background-image: url('../../assets/home/login-icon-clipart-free-download-3.png'); /* Substitua pelo caminho da sua imagem */
+background-size: 100px;
+width: 100px;
+height: 100px; 
+margin-bottom: 150px;
+position: absolute;
+z-index: 10;
+}
+
+
+
+
+

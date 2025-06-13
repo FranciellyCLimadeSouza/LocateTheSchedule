@@ -1,0 +1,21 @@
+  <div class="background">
+    <h1 class="title">LocateTheScheduling</h1>
+    <div class="account-section">
+      <table>
+  <tr>
+    <th>Nome</th>
+    <th>Email</th>
+    <th>Idade</th>
+  </tr>
+  <tr *ngFor="let item of dadosFiltrados">
+    <td>{{ item.Nome }}</td>
+    <td>{{ item.Email }}</td>
+    <td>{{ item.Idade }}</td>
+  </tr>
+</table>
+      <h2>Verificação Concluída</h2>
+      <form (ngSubmit)="goToCadastro()">
+        <button type="submit">Next<i class="arrow-icon">→</i></button>
+      </form>
+    </div>
+  </div>

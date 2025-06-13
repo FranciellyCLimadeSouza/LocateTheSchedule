@@ -1,0 +1,97 @@
+.full-screen-container 
+{
+  z-index: 0;
+    background:linear-gradient(to right, #ff5800,#890078);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-image: url('../../assets/home/login/login.png'); /* Substitua pelo caminho da sua imagem */
+}
+  
+.login-container 
+{
+  z-index: 10;
+  margin: 50px auto;
+  top: -30%;
+  margin-bottom: 70px;
+  right: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: 100%;
+  background-color: rgba(243, 96, 5, 0.5);     
+}
+  
+.login-container h1 
+{
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(51, 65, 155, 0.683);
+}
+
+.login-container label 
+{
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 10px;
+}
+  
+.login-container input 
+{
+  width: 90%;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.login-container a 
+{
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  color: #0056b3;
+  text-decoration: none;
+  z-index: 10;
+  font-size: 10px;
+}
+.login-container a:hover 
+{
+  text-decoration: underline;
+}
+
+.login-container button 
+{
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(57, 51, 142);
+  border: none;
+  border: 1.5px solid #0c0c0c;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover
+{
+  background-color: #e76b13;
+  z-index: 2;
+}
+.error-message
+{
+  font-size: 12px;
+}
